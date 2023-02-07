@@ -1,0 +1,58 @@
+.todo {
+  padding-top: 70px;
+  &__title{
+
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 50px;
+
+
+    .item {
+      box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+      padding: 35px 55px 85px 55px;
+      border-radius: 5px;
+      transition: 3s all ease-in-out;
+      background: linear-gradient(to right bottom, #212428, #16181c);
+
+      :hover {
+        transform: translateY(10px);
+      }
+
+      li {
+        display: flex;
+        gap: 50px 0;
+        flex-direction: column;
+
+
+        img {
+          margin: 0 auto;
+          border-radius: 5px;
+          max-width: 350px;
+          width: 100%;
+          max-height: 204px;
+          transform: none;
+
+        }
+
+        h4 {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 28px;
+
+        }
+      }
+
+
+    }
+  }
+}
+
+

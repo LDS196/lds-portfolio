@@ -1,0 +1,19 @@
+.like {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+
+
+  img {
+    padding: 2px 0 4px 0;
+    cursor: pointer;
+    width: 24px;
+    height: 29px;
+    :hover {
+      color: #f9004d;
+    }
+  }
+  span {
+    display: block;
+  }
+}

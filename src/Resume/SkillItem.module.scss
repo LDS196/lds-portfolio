@@ -1,0 +1,31 @@
+.item{
+  margin-bottom: 17px;
+  span{
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #c3cedd;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+
+  }
+}
+.progress{
+  height: 8px;
+  border-radius: 8px;
+  background: black;
+  box-shadow: inset 8px 8px 16px #00000075, inset -8px -8px 16px #383e4575;
+  position: relative;
+}
+.progressInner {
+  top: 1px;
+  border-radius: 8px;
+  content: '';
+  height: 6px;
+
+  position: absolute;
+  background: rgb(109, 38, 221);
+  background: linear-gradient(90deg, rgba(109, 38, 221, 1) 0%, rgba(172, 88, 226, 1) 23%, rgba(207, 61, 115, 1) 72%, rgba(215, 92, 127, 1) 82%, rgba(252, 99, 107, 1) 100%);
+}

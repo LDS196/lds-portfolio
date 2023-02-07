@@ -1,0 +1,20 @@
+.items{
+display: flex;
+  gap: 0 5px;
+
+}
+.item{
+  cursor: pointer;
+  padding: 30px 10px;
+  flex: 1 1 25%;
+  text-align: center;
+  font-size: 18px;
+
+  border-radius: 10px;
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  transition: all 0.5s;
+}
+.item:hover{
+  color: #ff014f;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}

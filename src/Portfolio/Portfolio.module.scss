@@ -1,0 +1,15 @@
+.portfolio {
+  padding-top: 70px;
+&__title{
+  text-align: center;
+}
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 30px;
+
+  }
+
+}
+
+
