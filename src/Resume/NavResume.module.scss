@@ -1,7 +1,9 @@
 .items{
 display: flex;
-  gap: 0 12px;
 
+  @media (max-width: 360px) {
+    gap: 0 6px;
+  }
 }
 .item{
   color: white;
@@ -20,10 +22,15 @@ display: flex;
   @media (max-width: 500px) {
     padding: 8px 4px;
     font-size: 12px;
+    border-radius: 5px;
   }
   @media (max-width: 400px) {
     padding: 4px 4px;
     font-size: 10px;
+  }
+  @media (max-width: 340px) {
+    padding: 3px 3px;
+    font-size: 9px;
   }
 }
 .item:hover{

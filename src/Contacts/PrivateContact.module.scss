@@ -12,7 +12,6 @@
   @media(max-width: 850px){
     flex-direction: row;
     gap: 0 30px;
-    flex: 1 1 100%;
     padding: 16px;
   }
 
@@ -75,7 +74,9 @@
   display: flex;
   gap: 0 20px;
   margin-top: 20px;
-
+  @media(max-width: 500px){
+    gap: 0 10px;
+  }
   &__item {
     background: #16181c;
     display: block;

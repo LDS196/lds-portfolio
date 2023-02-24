@@ -10,6 +10,12 @@
     display: flex;
     justify-content: space-around;
     gap: 0 30px;
+    @media(max-width: 685px){
+
+      flex-direction: column-reverse;
+      justify-content: start;
+
+    }
 
   }
 
@@ -27,6 +33,7 @@
     font-weight: 500;
     display: block;
     margin-bottom: 20px;
+
   }
 
   &__title {
@@ -39,6 +46,12 @@
       font-size: 40px;
       line-height: 52px;
     }
+    @media(max-width: 420px){
+      font-size: 28px;
+      line-height: 42px;
+
+    }
+
     span {
       color: #ff014f;
     }
@@ -83,6 +96,11 @@
   flex: 1 1 50%;
   display: flex;
   justify-content: end;
+  @media(max-width: 685px){
+    justify-content: center;
+    margin-bottom: 20px;
+
+  }
 
 
   &__block {
