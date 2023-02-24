@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import Title from "../Title/Title";
+import  {Subtitle} from "../Title/Title";
 import s from './Education.module.scss'
 
 const myEducation = [
@@ -40,11 +40,11 @@ const Education = () => {
     return (
         <div className={s.education}>
             <div className={s.university}>
-                <Title title={'University Degree'} subtitle={''} fontSizeTitle={'24px'} fontSizeSubtitle={'0'}/>
+                <Subtitle title={'University Degree'} subtitle={''}/>
                 {myEducation.map((el,i)=><EducationExample key={i} education={el}/>)}
             </div>
             <div className={s.course}>
-                <Title title={'Courses'} subtitle={''} fontSizeTitle={'24px'} fontSizeSubtitle={'0'}/>
+                <Subtitle title={'Courses'} subtitle={''} />
                 {myCourse.map((el,i)=><EducationExample key={i} education={el}/>)}
             </div>
         </div>

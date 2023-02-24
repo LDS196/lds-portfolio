@@ -1,7 +1,8 @@
 import React from 'react';
 import s from "./Resume.module.scss";
-import Title from "../Title/Title";
+
 import SkillsConteiner from "./SkillsContainer";
+import {Subtitle} from "../Title/Title";
 
 const myDevSkills: SkillsType = [
     {title: 'html', progress: 80},
@@ -25,8 +26,8 @@ const Skills = () => {
         <div className={s.resumeSkills}>
             <div className={s.resumeDev}>
                 <div className={s.titleSkills}>
-                    <Title title={'Development Skills'} subtitle={'features'}
-                           fontSizeTitle={'32px'} fontSizeSubtitle={'10px'}/>
+                    <Subtitle title={'Development Skills'} subtitle={'features'}
+                          />
                 </div>
                 <div className={s.skillsContainer}>
                     <SkillsConteiner skills={myDevSkills}/>
@@ -34,8 +35,8 @@ const Skills = () => {
             </div>
             <div className={s.resumeDesign}>
                 <div className={s.titleSkills}>
-                    <Title title={'Design Skills'} subtitle={'features'}
-                           fontSizeTitle={'32px'} fontSizeSubtitle={'10px'}/>
+                    <Subtitle title={'Design Skills'} subtitle={'features'}
+                           />
                 </div>
                 <div className={s.skillsContainer}>
                     <SkillsConteiner skills={myDesignSkills}/>

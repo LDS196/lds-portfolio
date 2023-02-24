@@ -1,14 +1,22 @@
 .header {
+  min-height: 80px;
   width: 100%;
   position: fixed;
   padding: 10px 150px 10px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: #212428de;
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-
+  @media (max-width:1200px ) {
+    padding: 10px 50px 10px 50px;
+  }
+  @media (max-width:600px ) {
+    padding: 10px 20px 10px 20px;
+  }
+  @media (max-width:400px ) {
+    padding: 10px 10px 10px 10px;
+  }
 }
 
 .headerLogo {
@@ -20,7 +28,14 @@
 .logoImg {
   width: 60px;
   height: 60px;
-
+  @media (max-width:750px ) {
+    width: 30px;
+    height: 30px;
+  }
+  @media (max-width:400px ) {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .logoText {
@@ -28,7 +43,9 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 62px;
-
+  @media (max-width:750px ) {
+    display: none;
+  }
 
 }
 
@@ -40,11 +57,28 @@
   display: flex;
   gap: 0 30px;
   color: #abb8c3;
+  @media (max-width:520px ) {
+    gap: 0 15px;
+  }
+  @media (max-width:430px ) {
+    gap: 0 12px;
+  }
+  @media (max-width:430px ) {
+    gap: 0 10px;
+  }
 }
 
 .item {
   text-transform: uppercase;
-
+  @media (max-width:520px ) {
+    font-size: 14px;
+  }
+  @media (max-width:430px ) {
+    font-size: 12px;
+  }
+  @media (max-width:360px ) {
+    font-size: 10px;
+  }
 }
 
 .link {

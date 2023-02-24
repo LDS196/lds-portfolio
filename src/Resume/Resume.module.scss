@@ -1,6 +1,8 @@
 .resume{
 padding-top: 70px;
-
+  @media (max-width: 500px){
+    padding-top: 35px;
+  }
 
 }
 .title{
@@ -11,7 +13,12 @@ padding-top: 70px;
   display: flex;
   gap: 0 60px;
   padding: 35px 5px 35px 5px;
-
+  @media (max-width: 850px) {
+    padding: 15px 5px 15px 5px;
+  }
+  @media (max-width: 620px) {
+    flex-direction: column;
+  }
 }
 .resumeDev{
   flex: 1 1 50%

@@ -7,7 +7,7 @@ import growth from'../assets/images/todo/Growth.jpg'
 import ceo  from'../assets/images/todo/CEO-Marketing.jpg'
 import performance  from'../assets/images/todo/Performance.png'
 import Line from "../Line/Line";
-import Title from "../Title/Title";
+import {Title} from "../Title/Title";
 
 
 const Todo = () => {
@@ -16,7 +16,7 @@ const Todo = () => {
             <div className={s.todo__title}>
                 <Title  subtitle={'features'}
                         title={'What I Do'}
-                        fontSizeTitle={'46px'} fontSizeSubtitle={'16px'}/>
+                        />
             </div>
             <ul>
                 <div className={s.item}>

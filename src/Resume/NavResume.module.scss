@@ -1,6 +1,6 @@
 .items{
 display: flex;
-  gap: 0 5px;
+  gap: 0 12px;
 
 }
 .item{
@@ -13,6 +13,18 @@ display: flex;
   border-radius: 10px;
   background: linear-gradient(to left bottom, #212428, #16181c);
   transition: all 0.5s;
+  @media (max-width: 800px) {
+    padding: 12px 5px;
+    font-size: 16px;
+  }
+  @media (max-width: 500px) {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+  @media (max-width: 400px) {
+    padding: 4px 4px;
+    font-size: 10px;
+  }
 }
 .item:hover{
   color: #ff014f;

@@ -3,7 +3,7 @@ import s from './/Portfolio.module.scss'
 
 import CardProject from "./CardProject";
 import Line from "../Line/Line";
-import Title from "../Title/Title";
+import {Title} from "../Title/Title";
 export type technologiesType=String[]
 export type cardProjectType= {
     kind:string
@@ -26,7 +26,7 @@ id={el.id}/>)
     return (
         <div className={s.portfolio}>
             <div className={s.portfolio__title}>
-                <Title  subtitle={'Visit my portfolio and keep your feedback'} title={'My Portfolio'} fontSizeTitle={'46px'} fontSizeSubtitle={'16px'}/>
+                <Title  subtitle={'Visit my portfolio and keep your feedback'} title={'My Portfolio'}/>
             </div>
             <ul>
                 {projectsForRender}

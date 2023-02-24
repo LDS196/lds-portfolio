@@ -1,0 +1,8 @@
+.line {
+  height: 1px;
+  background-color: black;
+  margin-top: 70px;
+  @media(max-width: 750px){
+    margin-top: 40px;
+  }
+}

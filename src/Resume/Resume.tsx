@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import s from './Resume.module.scss'
-import Title from "../Title/Title";
+import {Title} from "../Title/Title";
 import NavResume from "./NavResume";
 import Education from "./Education";
 import Me from "./Me";
@@ -18,7 +18,7 @@ const [value,setValue]=useState(0)
         <section className={s.resume}>
             <div className={s.title}>
                 <Title title={'My Resume'} subtitle={'10+ years experience'}
-                fontSizeTitle={'46px'} fontSizeSubtitle={'16px'}/>
+                />
             </div>
             <NavResume onClick={onClick}/>
             {value===0? <Skills/>:''}

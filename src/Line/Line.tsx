@@ -1,13 +1,9 @@
 import React from 'react';
-
+import s from './Line.module.scss'
 
 const Line = () => {
     return (
-        <div style={{
-            height: '1px',
-            backgroundColor: 'black',
-            marginTop: '70px',
-        }}>
+        <div className={s.line}>
 
         </div>
     );

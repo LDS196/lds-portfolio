@@ -3,27 +3,32 @@
   padding: 25px 45px 25px 45px;
   border-radius: 25px;
   background: linear-gradient(to right bottom, #212428, #16181c);
-
+  @media (max-width: 1380px) {
+    padding: 20px;
+  }
 
   li {
     display: flex;
     gap: 20px 0;
     flex-direction: column;
-
+    @media (max-width: 850px) {
+      gap: 10px 0;
+    }
 
     img {
       border-radius: 15px;
-     width: 100%;
+      width: 100%;
       transition: 0.5s;
 
       &:hover {
-        transform: scale(1.08);
+        transform: scale(1.05);
       }
     }
 
     .kind {
       display: flex;
       justify-content: space-between;
+
 
       p {
         color: #f9004d;
@@ -40,7 +45,10 @@
       font-size: 26px;
       line-height: 32px;
       cursor: pointer;
-
+    @media (max-width: 850px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
       :hover {
         font-size: 50px;
       }
@@ -51,6 +59,12 @@
       font-size: 14px;
       line-height: 28px;
       display: flex;
+      flex-wrap: wrap;
+      @media (max-width: 850px) {
+        font-size: 12px;
+        line-height: 20px;
+      }
+
       .slash {
         color: #f9004d;
         padding: 0 4px;
@@ -64,7 +78,7 @@
   text-transform: uppercase;
   font-size: 14px;
   color: #c4cfde;
-  padding:2px;
+  padding: 2px;
 
   :hover {
     color: #f9004d;
