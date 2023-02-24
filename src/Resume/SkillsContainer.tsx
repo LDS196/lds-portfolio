@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import SkillItem from "./SkillItem";
-import {SkillsType} from "./Resume";
+import {SkillsType} from "./Skills";
+
 
 type SkillsContainerType={
     skills: SkillsType

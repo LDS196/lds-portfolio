@@ -5,6 +5,7 @@ import Todo from "./Todo/Todo";
 import Portfolio from "./Portfolio/Portfolio";
 import Resume from "./Resume/Resume";
 import Header from "./Header/Header";
+import Contacts from "./Contacts/Contacts";
 
 function App() {
     return (
@@ -15,6 +16,10 @@ function App() {
                 <Todo/>
                 <Portfolio/>
                 <Resume/>
+                <Contacts/>
+                <footer style={{textAlign:'center', padding:'30px'}}>
+                    Copyright © 2023 LDS Laboratory.All rights reserved.
+                </footer>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const Todo = () => {
     return (
         <div className={s.todo}>
             <div className={s.todo__title}>
-                <Title  subtitle={'Visit my portfolio and keep your feedback'}
+                <Title  subtitle={'features'}
                         title={'What I Do'}
                         fontSizeTitle={'46px'} fontSizeSubtitle={'16px'}/>
             </div>

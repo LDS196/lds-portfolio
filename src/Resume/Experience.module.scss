@@ -1,0 +1,30 @@
+.experience{
+  display: flex;
+  gap: 0 70px;
+  margin-top: 50px;
+}
+.list {
+  flex: 1 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  border-radius: 10px;
+  background:  #16181c;
+  padding: 30px;
+  min-height: 180px;
+
+}
+
+.place {
+  font-size: 22px;
+}
+
+.year {
+  color: #ff014f;
+}
+
+.speciality {
+  font-size: 18px;
+  color:#878e99;
+}

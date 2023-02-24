@@ -8,12 +8,10 @@ type LikeType={
 }
 const Like:FC<LikeType> = ({id}) => {
     const [firstRendering, setFirstRendering] = useState(true)
-    let [count, setCount] = useState(0)
+
+    let [count, setCount] = useState(()=>Math.floor(Math.random() * 50))
     let [isLike, setLike] = useState(false)
-    useEffect(()=>{
-       count=Math.floor(Math.random() * 100)
-        setCount(count)
-    },[])
+
     useEffect(() => {
         if (!firstRendering) {
             localStorage.setItem(`count-${id}`, JSON.stringify(count))

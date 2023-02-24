@@ -4,6 +4,7 @@
   border-radius: 25px;
   background: linear-gradient(to right bottom, #212428, #16181c);
 
+
   li {
     display: flex;
     gap: 20px 0;
@@ -12,11 +13,11 @@
 
     img {
       border-radius: 15px;
-      width: 100%;
-      transition: 1s;
+     width: 100%;
+      transition: 0.5s;
 
-      :hover {
-        transform: scale3d(1.01, 1.01, 1.01);
+      &:hover {
+        transform: scale(1.08);
       }
     }
 
