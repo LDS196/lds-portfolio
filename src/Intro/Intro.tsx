@@ -29,7 +29,7 @@ const Intro = () => {
                         <ReactTypingEffect text={'a Frontend Developer'}
                                            speed={150}
                                            typingDelay={500}
-                                           eraseSpeed={25}
+                                           eraseSpeed={45}
                                            eraseDelay={3000}
                         />
                     </h1>
