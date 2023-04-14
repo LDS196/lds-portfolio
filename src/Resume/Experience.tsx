@@ -5,9 +5,21 @@ export const Experience = () => {
     return (
         <div className={s.experience}>
             <ul className={s.list}>
-                <li className={s.place}>Junior Frontend Developer</li>
-                <li className={s.year}>Startup (Remote work 2022-2023)</li>
-                <li className={s.speciality}>Job description of junior frontend developer
+                <li className={s.place}>Frontend Developer</li>
+                <li className={s.year}>Project (remote work 2022-2023)</li>
+                <li className={s.speciality}>• Project architectural solutions (layering UI, BLL,
+                    DAL, Server)<br/>
+                    • Development and update components with React
+                    RESTful (Registration/loginization/pagination etc)<br/>
+                    • Proper BLL state management with Redux, Thunk
+                    Toolkit etc<br/>
+                    • Working with the server using ajax (CRUD
+                    determination and data processing)<br/>
+                    • Performance enhancement (memo, useCallback,
+                    lazy, etc.)<br/>
+                    • Covering applications with tests<br/>
+                    • Team developement<br/>
+                    • Bug fixing, deploying<br/>
                 </li>
 
             </ul>

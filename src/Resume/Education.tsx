@@ -17,7 +17,7 @@ const myEducation = [
 const myCourse = [
     {
         place: 'IT-Incubator',
-        year: '2022-2023',
+        year: '2022',
         speciality: 'Frontend Developer/React'
     },
     {

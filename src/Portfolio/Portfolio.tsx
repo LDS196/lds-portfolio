@@ -24,7 +24,7 @@ const projectsForRender= projects.map(el=> <CardProject key={el.id} kind={el.kin
                                                         title={el.title} technologies={el.technologies}
 id={el.id}/>)
     return (
-        <div className={s.portfolio}>
+        <div className={s.portfolio} id={'projects'}>
             <div className={s.portfolio__title}>
                 <Title  subtitle={'Visit my portfolio and keep your feedback'} title={'My Portfolio'}/>
             </div>

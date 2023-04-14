@@ -1,5 +1,9 @@
-
+.container{
+    scroll-behavior: smooth;
+    position: relative;
+}
 .container-inner{
+    scroll-behavior: smooth;
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
@@ -8,4 +12,12 @@
         padding: 115px 20px 0 20px;
     }
 
+}
+.particles{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.3;
 }

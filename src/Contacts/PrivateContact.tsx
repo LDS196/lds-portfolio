@@ -20,13 +20,28 @@ const PrivateContact = () => {
                 <li className={s.email}>Email: <span className={s.spanHover}>lihachevd87@gmail.com</span></li>
                 <li>FIND WITH ME</li>
                 <ul className={s.social}>
-                    <Link className={s.social__item} to={'/'}> <img title={'Linkedin'} src={linkedin} alt=""/></Link>
-                    <Link className={s.social__item} to={'/'}> <img title={'Github'} src={git} alt=""/></Link>
-                    <Link className={s.social__item} to={'/'}> <img title={'Telegram'} src={telegram} alt=""/></Link>
-                    <Link className={s.social__item} to={'/'}> <img title={'Instagram'} src={instagram} alt=""/></Link>
+                    <Link
+                        target={'_blank'}
+                        className={s.social__item}
+                        to={'https://www.linkedin.com/in/dmitrii-likhachev-357197236'}>
+                        <img title={'Linkedin'} src={linkedin} alt=""/></Link>
+                    <Link
+                        target={'_blank'}
+                        className={s.social__item}
+                        to={'https://github.com/LDS196?tab=repositories'}>
+                        <img title={'Github'} src={git} alt=""/></Link>
+                    <Link
+                        target={'_blank'}
+                        className={s.social__item}
+                        to={'tg://resolve?domain=<@lds169>'}>
+                        <img title={'Telegram'} src={telegram} alt=""/></Link>
+                    <Link
+                        target={'_blank'}
+                        className={s.social__item}
+                        to={'https://www.instagram.com/lds196/'}>
+                        <img title={'Instagram'} src={instagram} alt=""/></Link>
                 </ul>
             </div>
-
 
         </ul>
     );

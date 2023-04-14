@@ -15,7 +15,7 @@ const [value,setValue]=useState(0)
     setValue(value)
     }
     return (
-        <section className={s.resume}>
+        <section className={s.resume} id={'resume'}>
             <div className={s.title}>
                 <Title title={'My Resume'} subtitle={'10+ years experience'}
                 />

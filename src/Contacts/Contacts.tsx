@@ -6,7 +6,7 @@ import s from './Form.module.scss'
 import Line from "../Line/Line";
 const Contacts = () => {
     return (
-        <div className={s.contact}>
+        <div className={s.contact} id={'contacts'}>
             <div className={s.contactTitle}>
                 <Title title={'Contact With Me'} subtitle={'contact'} />
             </div>
