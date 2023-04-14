@@ -7,6 +7,7 @@ import Me from "./Me";
 import Skills from "./Skills";
 import {Experience} from "./Experience";
 import Line from "../Line/Line";
+import {Fade} from "react-awesome-reveal";
 
 
 const Resume = () => {
@@ -16,6 +17,9 @@ const [value,setValue]=useState(0)
     }
     return (
         <section className={s.resume} id={'resume'}>
+            <Fade direction={'up'}
+                  delay={500}
+                  triggerOnce={true}>
             <div className={s.title}>
                 <Title title={'My Resume'} subtitle={'10+ years experience'}
                 />
@@ -30,7 +34,7 @@ const [value,setValue]=useState(0)
 
 
 
-
+            </Fade>
         </section>
     );
 };

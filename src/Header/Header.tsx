@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Header.module.scss'
 import logo from '../assets/images/lab.png'
+import {Link} from "react-scroll";
 
-import * as Scroll from 'react-scroll';
-import { Link,  animateScroll as scroll, } from 'react-scroll'
+
 
 
 

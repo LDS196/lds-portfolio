@@ -12,36 +12,59 @@ import js from '../assets/images/skills-logo/js.png'
 import materialUI from '../assets/images/skills-logo/material-ui.svg'
 import sass from '../assets/images/skills-logo/sass.png'
 import storybook from '../assets/images/skills-logo/storybook.svg'
-const mySkills=[react,js,redux,css,figma,git,html5,materialUI,sass,storybook,]
+import {Fade} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
+
+
+const mySkills = [react, js, redux, css, figma, git, html5, materialUI, sass, storybook,]
 const Intro = () => {
+    console.log('dd')
     return (
         <section className={s.intro} id={'intro'}>
             <div className={s.intro__block}>
                 <div className={s.about}>
                     <p className={s.about__subtitle}>welcome to my world</p>
-                    <h1 className={s.about__title}>Hi,&nbsp;I'm <span>Dmitrii</span> <br/>a Frontend Developer</h1>
-                    <p className={s.about__desc}> I'm frontend developer with experience in creating SPA using React, Redux, TypeScript.
+                    <h1 className={s.about__title}>Hi, I'm <span className={s.about__name}>Dmitrii</span>
+                        <br/>
+                        <ReactTypingEffect text={'a Frontend Developer'}
+                                           speed={150}
+                                           typingDelay={500}
+                                           eraseSpeed={25}
+                                           eraseDelay={3000}
+                        />
+                    </h1>
+                    <p className={s.about__desc}> I'm frontend developer with experience in creating SPA using React,
+                        Redux, TypeScript.
                         Knowledge in user interface, testing, and debugging processes.
-                        I improving my skills in this direction and plan to expand them with new technologies, such as React Native.
-                        I usually spend my free time reading IT-literature, doing sports and improving my English. Open to your suggestions.</p>
+                        I improving my skills in this direction and plan to expand them with new technologies, such as
+                        React Native.
+                        I usually spend my free time reading IT-literature, doing sports and improving my English. Open
+                        to your suggestions.</p>
                     <p className={s.about__skill}>best skill on</p>
                     <ul className={s.about__items}>
-                        {mySkills.map((el,i)=><li key={i}><img className={s.about__item} src={el} alt=""/></li> )}
+                        {mySkills.map((el, i) => <li key={i}><img className={s.about__item} src={el} alt=""/></li>)}
 
 
                     </ul>
                 </div>
+
                 <div className={s.avatar}>
-                    <div className={s.avatar__block}>
-                        <img src={avatar} alt="avatar"/>
-                    </div>
-
+                    <Fade
+                        direction={'down'}
+                        delay={200}
+                        triggerOnce={true}
+                    >
+                        <div className={s.avatar__block}>
+                            <img src={avatar} alt="avatar"/>
+                        </div>
+                    </Fade>
                 </div>
-            </div>
 
+            </div>
             <Line/>
         </section>
     );
 };
+
 
 export default Intro;

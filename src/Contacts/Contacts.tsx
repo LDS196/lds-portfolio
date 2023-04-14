@@ -4,18 +4,24 @@ import Form from "./Form";
 import {Title} from "../Title/Title";
 import s from './Form.module.scss'
 import Line from "../Line/Line";
+import {Fade} from "react-awesome-reveal";
+
 const Contacts = () => {
     return (
         <div className={s.contact} id={'contacts'}>
-            <div className={s.contactTitle}>
-                <Title title={'Contact With Me'} subtitle={'contact'} />
-            </div>
-            <div className={s.contactList} >
-                <PrivateContact/>
-                <Form/>
-            </div>
-            <Line/>
-    </div>
+            <Fade direction={'up'}
+                  delay={500}
+                  triggerOnce={true}>
+                <div className={s.contactTitle}>
+                    <Title title={'Contact With Me'} subtitle={'contact'}/>
+                </div>
+                <div className={s.contactList}>
+                    <PrivateContact/>
+                    <Form/>
+                </div>
+                <Line/>
+            </Fade>
+        </div>
 
     );
 };

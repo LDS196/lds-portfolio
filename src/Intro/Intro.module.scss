@@ -11,7 +11,6 @@
     justify-content: space-around;
     gap: 0 30px;
     @media(max-width: 685px){
-
       flex-direction: column-reverse;
       justify-content: start;
 
@@ -52,9 +51,9 @@
 
     }
 
-    span {
-      color: #ff014f;
-    }
+  }
+  &__name{
+    color: #ff014f;
   }
 
   &__desc {
