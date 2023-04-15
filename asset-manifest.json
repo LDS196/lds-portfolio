@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lds-portfolio/static/css/main.4d0111bf.css",
-    "main.js": "/lds-portfolio/static/js/main.de1bb5bc.js",
+    "main.css": "/lds-portfolio/static/css/main.45d5a3e6.css",
+    "main.js": "/lds-portfolio/static/js/main.b9fe57d9.js",
     "static/js/787.a927ab7b.chunk.js": "/lds-portfolio/static/js/787.a927ab7b.chunk.js",
-    "static/media/Performance.png": "/lds-portfolio/static/media/Performance.b0afd4e6350d1a296571.png",
+    "static/media/Design.jpg": "/lds-portfolio/static/media/Design.fcf848fcd1483ac1aa0b.jpg",
+    "static/media/Performance1.png": "/lds-portfolio/static/media/Performance1.22994607a34c33d34ff6.png",
     "static/media/social-network.jpg": "/lds-portfolio/static/media/social-network.f3009774cfe191ae1ab4.jpg",
     "static/media/contact-hand.png": "/lds-portfolio/static/media/contact-hand.8ddfbfd11798f881db54.png",
     "static/media/pazzle.jpg": "/lds-portfolio/static/media/pazzle.5e9cd87ca0f68a81a64f.jpg",
     "static/media/sass.png": "/lds-portfolio/static/media/sass.91714f748188b46f4e33.png",
-    "static/media/CEO-Marketing.jpg": "/lds-portfolio/static/media/CEO-Marketing.1a7afc643deaeb05ed21.jpg",
-    "static/media/Design.jpg": "/lds-portfolio/static/media/Design.ffae9769d2c112dd6088.jpg",
+    "static/media/CEO-Marketing.jpg": "/lds-portfolio/static/media/CEO-Marketing.08766e8fe31a665b272a.jpg",
     "static/media/project.jpg": "/lds-portfolio/static/media/project.ffae9769d2c112dd6088.jpg",
     "static/media/atom.png": "/lds-portfolio/static/media/atom.ac9979693620f0a96231.png",
     "static/media/git.png": "/lds-portfolio/static/media/git.bad2b1118eff814bb319.png",
@@ -27,12 +27,12 @@
     "static/media/redux.svg": "/lds-portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "index.html": "/lds-portfolio/index.html",
     "static/media/material-ui.svg": "/lds-portfolio/static/media/material-ui.60a0ece058ff0f20c1815cf138a56e35.svg",
-    "main.4d0111bf.css.map": "/lds-portfolio/static/css/main.4d0111bf.css.map",
-    "main.de1bb5bc.js.map": "/lds-portfolio/static/js/main.de1bb5bc.js.map",
+    "main.45d5a3e6.css.map": "/lds-portfolio/static/css/main.45d5a3e6.css.map",
+    "main.b9fe57d9.js.map": "/lds-portfolio/static/js/main.b9fe57d9.js.map",
     "787.a927ab7b.chunk.js.map": "/lds-portfolio/static/js/787.a927ab7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d0111bf.css",
-    "static/js/main.de1bb5bc.js"
+    "static/css/main.45d5a3e6.css",
+    "static/js/main.b9fe57d9.js"
   ]
 }
