@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/lds-portfolio/static/css/main.0b87ba36.css",
-    "main.js": "/lds-portfolio/static/js/main.f9972dff.js",
+    "main.css": "/lds-portfolio/static/css/main.4d0111bf.css",
+    "main.js": "/lds-portfolio/static/js/main.de1bb5bc.js",
     "static/js/787.a927ab7b.chunk.js": "/lds-portfolio/static/js/787.a927ab7b.chunk.js",
     "static/media/Performance.png": "/lds-portfolio/static/media/Performance.b0afd4e6350d1a296571.png",
+    "static/media/social-network.jpg": "/lds-portfolio/static/media/social-network.f3009774cfe191ae1ab4.jpg",
     "static/media/contact-hand.png": "/lds-portfolio/static/media/contact-hand.8ddfbfd11798f881db54.png",
+    "static/media/pazzle.jpg": "/lds-portfolio/static/media/pazzle.5e9cd87ca0f68a81a64f.jpg",
     "static/media/sass.png": "/lds-portfolio/static/media/sass.91714f748188b46f4e33.png",
     "static/media/CEO-Marketing.jpg": "/lds-portfolio/static/media/CEO-Marketing.1a7afc643deaeb05ed21.jpg",
     "static/media/Design.jpg": "/lds-portfolio/static/media/Design.ffae9769d2c112dd6088.jpg",
@@ -15,20 +17,22 @@
     "static/media/Growth.jpg": "/lds-portfolio/static/media/Growth.4533bceb523741a5dd43.jpg",
     "static/media/avatar.jpg": "/lds-portfolio/static/media/avatar.a97b699c97467ab2ed21.jpg",
     "static/media/strategy.jpg": "/lds-portfolio/static/media/strategy.a97b699c97467ab2ed21.jpg",
+    "static/media/pizza.jpg": "/lds-portfolio/static/media/pizza.6ef8754d8b31291ade50.jpg",
     "static/media/figma.png": "/lds-portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/html-5.png": "/lds-portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
     "static/media/css-3.png": "/lds-portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/zoo.jpg": "/lds-portfolio/static/media/zoo.425be6f69ae0046d301f.jpg",
     "static/media/js.png": "/lds-portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/storybook.svg": "/lds-portfolio/static/media/storybook.c5da0e8cb02e3e8bdf076af91885575f.svg",
     "static/media/redux.svg": "/lds-portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "index.html": "/lds-portfolio/index.html",
     "static/media/material-ui.svg": "/lds-portfolio/static/media/material-ui.60a0ece058ff0f20c1815cf138a56e35.svg",
-    "main.0b87ba36.css.map": "/lds-portfolio/static/css/main.0b87ba36.css.map",
-    "main.f9972dff.js.map": "/lds-portfolio/static/js/main.f9972dff.js.map",
+    "main.4d0111bf.css.map": "/lds-portfolio/static/css/main.4d0111bf.css.map",
+    "main.de1bb5bc.js.map": "/lds-portfolio/static/js/main.de1bb5bc.js.map",
     "787.a927ab7b.chunk.js.map": "/lds-portfolio/static/js/787.a927ab7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b87ba36.css",
-    "static/js/main.f9972dff.js"
+    "static/css/main.4d0111bf.css",
+    "static/js/main.de1bb5bc.js"
   ]
 }
