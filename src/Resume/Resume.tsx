@@ -9,8 +9,8 @@ import {Experience} from "./Experience";
 import Line from "../Line/Line";
 import {Fade} from "react-awesome-reveal";
 
-const cv = 'https://lds196.github.io/lds-portfolio/public/cv.pdf'
-
+const cv = 'https://github.com/LDS196/lds-portfolio/blob/main/public/cv.jpg'
+// const cv = 'http://localhost:3000/lds-portfolio/public/cv.jpg'
 const Resume = () => {
     const [value, setValue] = useState(0)
     const onClick = (value: number) => {
@@ -20,7 +20,10 @@ const Resume = () => {
     const downloadFile = () => {
         const aTag = document.createElement('a')
         aTag.href =cv
-        aTag.setAttribute('download', 'cv.pdf')
+        aTag.setAttribute('download', 'cv.jpg')
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
     }
     return (
         <section className={s.resume} id={'resume'}>
