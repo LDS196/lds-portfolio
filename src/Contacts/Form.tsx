@@ -1,10 +1,25 @@
-import React from 'react';
+import React, {FormEventHandler} from 'react';
 import s from './Form.module.scss'
+import emailjs from "emailjs-com";
 
 const Form = () => {
+    function sendEmail(e:any) {
+        e.preventDefault();
+        emailjs
+            .sendForm('service_lcslzyt', 'template_4eu4nyq', e.target, 'ie-LtrPZDzeWDkbxG')
+            .then((result) => {
+               if(result.text === 'OK'){
+                   alert('Your message was sent successfully!)')
+                   e.target.reset()
+               }
+            }, (error) => {
+                alert('your message was not received.Try again!' )
+                console.log(error.text);
+            });
+    }
     return (
         <div className={s.wrapper}>
-            <form action={'#'} className={s.formBody}></form>
+            <form className={s.formBody} onSubmit={sendEmail}>
             <div className={s.formNameNumber}>
                 <div className={s.formItem}>
                     <label htmlFor={'forName'} className={s.labelForm}>name</label>
@@ -27,8 +42,8 @@ const Form = () => {
                 <label htmlFor={'forMessage'} className={s.labelForm}>your message</label>
                 <textarea className={s.formInput} id={'forMessage'} rows={10} cols={40} name={'message'}/>
             </div>
-            <button type={"submit"} className={s.formButton}>send</button>
-
+            <input type="submit" value="Send" className={s.formButton} />
+            </form>
         </div>
     );
 };

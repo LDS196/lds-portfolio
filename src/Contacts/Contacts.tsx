@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import PrivateContact from "./PrivateContact";
 import Form from "./Form";
 import {Title} from "../Title/Title";
 import s from './Form.module.scss'
 import Line from "../Line/Line";
 import {Fade} from "react-awesome-reveal";
+import emailjs from 'emailjs-com';
+
 
 const Contacts = () => {
     return (
@@ -25,5 +27,6 @@ const Contacts = () => {
 
     );
 };
+
 
 export default Contacts;

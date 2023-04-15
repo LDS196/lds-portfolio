@@ -26,24 +26,27 @@
 
 
     .item {
+      max-height: 510px;
+      height: 100%;
+      z-index: 999;
       box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-      padding: 35px 55px 85px 55px;
+      padding: 35px 55px 55px 55px;
       border-radius: 5px;
-      transition: 3s all ease-in-out;
       background: linear-gradient(to right bottom, #212428, #16181c);
       @media(max-width: 1050px){
         padding: 20px 20px 20px 20px;
+
       }
       @media(max-width: 550px){
         padding: 10px;
       }
       :hover {
-        transform: translateY(10px);
+
       }
 
       li {
         display: flex;
-        gap: 50px 0;
+        gap: 20px 0;
         flex-direction: column;
         @media(max-width: 1050px){
           gap: 30px 0;
@@ -56,7 +59,8 @@
           border-radius: 5px;
           max-width: 350px;
           width: 100%;
-          max-height: 204px;
+          max-height: 200px;
+          height: 100%;
 
 
         }
@@ -91,5 +95,4 @@
     }
   }
 }
-
 

@@ -73,7 +73,7 @@ const projects: Array<cardProjectType> = [
     },
 ]
 const Portfolio = () => {
-    const projectsForRender = projects.map(el => <CardProject card={el}/>)
+    const projectsForRender = projects.map(el => <CardProject key={el.id} card={el}/>)
     return (
         <div className={s.portfolio} id={'projects'} >
             <Fade direction={'up'}

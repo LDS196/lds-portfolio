@@ -18,7 +18,6 @@ import ReactTypingEffect from "react-typing-effect";
 
 const mySkills = [react, js, redux, css, figma, git, html5, materialUI, sass, storybook,]
 const Intro = () => {
-    console.log('dd')
     return (
         <section className={s.intro} id={'intro'}>
             <div className={s.intro__block}>

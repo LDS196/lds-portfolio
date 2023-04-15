@@ -5,7 +5,6 @@ import Particles from "react-tsparticles";
 
 export const MyParticles = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
 
         // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -14,7 +13,7 @@ export const MyParticles = () => {
     }, []);
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
+
     }, []);
     return (
         <Particles className={'particles'}
@@ -91,7 +90,7 @@ export const MyParticles = () => {
                                value: { min: 1, max: 5 },
                            },
                        },
-                       detectRetina: true,
+                       detectRetina: false,
                    }}
         />
     );

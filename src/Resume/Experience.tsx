@@ -6,7 +6,7 @@ export const Experience = () => {
         <div className={s.experience}>
             <ul className={s.list}>
                 <li className={s.place}>Frontend Developer</li>
-                <li className={s.year}>Project (remote work 2022-2023)</li>
+                <li className={s.year}>Project work (remote work 2022-2023)</li>
                 <li className={s.speciality}>• Project architectural solutions (layering UI, BLL,
                     DAL, Server)<br/>
                     • Development and update components with React
