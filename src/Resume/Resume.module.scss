@@ -1,16 +1,16 @@
-.resume{
-  scroll-behavior: smooth;
-padding-top: 70px;
-  @media (max-width: 500px){
+.resume {
+  padding-top: 70px;
+  @media (max-width: 500px) {
     padding-top: 35px;
   }
 
 }
-.title{
-  text-align: center;
- }
 
-.resumeSkills{
+.title {
+  text-align: center;
+}
+
+.resumeSkills {
   display: flex;
   gap: 0 60px;
   padding: 35px 5px 35px 5px;
@@ -21,13 +21,31 @@ padding-top: 70px;
     flex-direction: column;
   }
 }
-.resumeDev{
-  flex: 1 1 50%
-}
-.resumeDesign{
+
+.resumeDev {
   flex: 1 1 50%
 }
 
-.skillsContainer{
+.resumeDesign {
+  flex: 1 1 50%
+}
 
+.skillsContainer {
+
+}
+
+.btnDownload {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  color: #c4cfde;
+  font-size: 18px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  &:hover{
+    background: #191b1e;
+    color: #f9004d;
+  }
 }

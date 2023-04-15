@@ -5,12 +5,12 @@ import SkillsConteiner from "./SkillsContainer";
 import {Subtitle} from "../Title/Title";
 
 const myDevSkills: SkillsType = [
-    {title: 'html', progress: 80},
+    {title: 'html', progress: 70},
     {title: 'css', progress: 70},
-    {title: 'javascript', progress: 65},
-    {title: 'react', progress: 75},
-    {title: 'typescript', progress: 60},
-    {title: 'redux', progress: 65},
+    {title: 'javascript', progress: 75},
+    {title: 'react', progress: 80},
+    {title: 'typescript', progress: 70},
+    {title: 'redux', progress: 90},
 ];
 const myDesignSkills:SkillsType = [
     {title: 'figma', progress: 60},

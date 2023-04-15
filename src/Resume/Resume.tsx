@@ -9,10 +9,8 @@ import {Experience} from "./Experience";
 import Line from "../Line/Line";
 import {Fade} from "react-awesome-reveal";
 // @ts-ignore
-import pdf from '../assets/files/hw.pdf'
+import myCv from '../assets/files/myCV.pdf'
 
-// // const cv = 'https://lds196.github.io/lds-portfolio/public/cv.jpg'
-//  const cv = 'http://localhost:3000/lds-portfolio/public/cv.jpg'
 const Resume = () => {
     const [value, setValue] = useState(0)
     const onClick = (value: number) => {
@@ -21,7 +19,7 @@ const Resume = () => {
 
 
     const onButtonClick = () => {
-        fetch(pdf, {
+        fetch(myCv, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/pdf',
@@ -37,7 +35,7 @@ const Resume = () => {
                 link.href = url;
                 link.setAttribute(
                     'download',
-                    `FileName.pdf`,
+                    `Likhachev_Dmitrii_CV.pdf`,
                 );
 
                 // Append to html link element page
@@ -54,24 +52,21 @@ const Resume = () => {
     return (
         <section className={s.resume} id={'resume'}>
             <Fade direction={'up'}
-                  delay={500}
+                  delay={200}
                   triggerOnce={true}>
                 <div className={s.title}>
                     <Title title={'My Resume'} subtitle={'10+ years experience'}/>
                 </div>
-                {/*<button onClick={() => downloadFile()}>Download CV</button>*/}
-                <button onClick={onButtonClick}>Download file</button>
+                <div style={{textAlign: "right"}}>
+                    <button className={s.btnDownload} onClick={onButtonClick}>Download CV</button>
+                </div>
                 <NavResume onClick={onClick}/>
                 {value === 0 ? <Skills/> : ''}
                 {value === 1 ? <Education/> : ''}
                 {value === 2 ? <Experience/> : ''}
                 {value === 3 ? <Me/> : ''}
                 <Line/>
-
-
             </Fade>
-
-
         </section>
     );
 };

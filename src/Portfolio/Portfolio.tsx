@@ -77,7 +77,7 @@ const Portfolio = () => {
     return (
         <div className={s.portfolio} id={'projects'} >
             <Fade direction={'up'}
-                  delay={500}
+                  delay={200}
                   triggerOnce={true}
             >
                 <div  className={s.portfolio__title}>

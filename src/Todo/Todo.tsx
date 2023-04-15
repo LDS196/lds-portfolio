@@ -16,7 +16,7 @@ const Todo = () => {
     return (
         <div className={s.todo}>
             <Fade
-                direction={'up'} delay={500} triggerOnce={true}>
+                direction={'up'} delay={200} triggerOnce={true}>
                 <div className={s.todo__title}>
                     <Title subtitle={'features'}
                            title={'What I Do'}

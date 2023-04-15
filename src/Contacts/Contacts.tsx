@@ -12,7 +12,7 @@ const Contacts = () => {
     return (
         <div className={s.contact} id={'contacts'}>
             <Fade direction={'up'}
-                  delay={500}
+                  delay={200}
                   triggerOnce={true}>
                 <div className={s.contactTitle}>
                     <Title title={'Contact With Me'} subtitle={'contact'}/>
