@@ -10,7 +10,6 @@ import {MyParticles} from "common/MyParticles";
 function App() {
     return (
         <div className="container">
-
             <Header/>
             <div className="container-inner">
                 <MyParticles />
