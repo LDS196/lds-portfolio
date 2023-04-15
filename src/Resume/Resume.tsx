@@ -9,29 +9,34 @@ import {Experience} from "./Experience";
 import Line from "../Line/Line";
 import {Fade} from "react-awesome-reveal";
 
+const cv = 'https://lds196.github.io/lds-portfolio/publis/cv.pdf'
 
 const Resume = () => {
-const [value,setValue]=useState(0)
-    const onClick  =(value:number)=>{
-    setValue(value)
+    const [value, setValue] = useState(0)
+    const onClick = (value: number) => {
+        setValue(value)
+    }
+
+    const downloadFile = () => {
+        const aTag = document.createElement('a')
+        aTag.href =cv
+        aTag.setAttribute('download', 'cv.pdf')
     }
     return (
         <section className={s.resume} id={'resume'}>
             <Fade direction={'up'}
                   delay={500}
                   triggerOnce={true}>
-            <div className={s.title}>
-                <Title title={'My Resume'} subtitle={'10+ years experience'}
-                />
-            </div>
-            <NavResume onClick={onClick}/>
-            {value===0? <Skills/>:''}
-            {value===1?  <Education/>:''}
-            {value===2? <Experience/>:''}
-            {value===3?  <Me/>:''}
-            <Line/>
-
-
+                <div className={s.title}>
+                    <Title title={'My Resume'} subtitle={'10+ years experience'}/>
+                </div>
+                <button onClick={() => downloadFile()}>cv</button>
+                <NavResume onClick={onClick}/>
+                {value === 0 ? <Skills/> : ''}
+                {value === 1 ? <Education/> : ''}
+                {value === 2 ? <Experience/> : ''}
+                {value === 3 ? <Me/> : ''}
+                <Line/>
 
 
             </Fade>
