@@ -30,7 +30,7 @@ const Resume = () => {
                 <div className={s.title}>
                     <Title title={'My Resume'} subtitle={'10+ years experience'}/>
                 </div>
-                <button onClick={() => downloadFile()}>cv</button>
+                <button onClick={() => downloadFile()}>Download CV</button>
                 <NavResume onClick={onClick}/>
                 {value === 0 ? <Skills/> : ''}
                 {value === 1 ? <Education/> : ''}
