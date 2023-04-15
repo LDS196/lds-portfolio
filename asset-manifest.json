@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lds-portfolio/static/css/main.45d5a3e6.css",
-    "main.js": "/lds-portfolio/static/js/main.1e8ed06f.js",
+    "main.js": "/lds-portfolio/static/js/main.baee0c06.js",
     "static/js/787.a927ab7b.chunk.js": "/lds-portfolio/static/js/787.a927ab7b.chunk.js",
     "static/media/Design.jpg": "/lds-portfolio/static/media/Design.fcf848fcd1483ac1aa0b.jpg",
     "static/media/Performance1.png": "/lds-portfolio/static/media/Performance1.22994607a34c33d34ff6.png",
@@ -28,11 +28,11 @@
     "index.html": "/lds-portfolio/index.html",
     "static/media/material-ui.svg": "/lds-portfolio/static/media/material-ui.60a0ece058ff0f20c1815cf138a56e35.svg",
     "main.45d5a3e6.css.map": "/lds-portfolio/static/css/main.45d5a3e6.css.map",
-    "main.1e8ed06f.js.map": "/lds-portfolio/static/js/main.1e8ed06f.js.map",
+    "main.baee0c06.js.map": "/lds-portfolio/static/js/main.baee0c06.js.map",
     "787.a927ab7b.chunk.js.map": "/lds-portfolio/static/js/787.a927ab7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45d5a3e6.css",
-    "static/js/main.1e8ed06f.js"
+    "static/js/main.baee0c06.js"
   ]
 }
