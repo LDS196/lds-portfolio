@@ -9,7 +9,7 @@ import {Experience} from "./Experience";
 import Line from "../Line/Line";
 import {Fade} from "react-awesome-reveal";
 
-const cv = 'https://lds196.github.io/lds-portfolio/publis/cv.pdf'
+const cv = 'https://lds196.github.io/lds-portfolio/public/cv.pdf'
 
 const Resume = () => {
     const [value, setValue] = useState(0)
