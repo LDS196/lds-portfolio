@@ -45,7 +45,7 @@ const projects: Array<cardProjectType> = [
         technologies: ['React','TypeScript', 'Redux Toolkit', 'RestApi', 'Router-dom', 'Axios','Hooks'],
         id: '3',
         urlImg: pizza,
-        link:''
+        link:'https://lds196.github.io/new-pizza/'
     },
     {
         kind: 'game',
