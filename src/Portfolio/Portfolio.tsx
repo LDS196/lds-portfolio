@@ -10,7 +10,7 @@ import socialNetwork from "../assets/images/portfolio/social-network.jpg";
 import birds from "../assets/images/portfolio/birds.png";
 import pizza from "../assets/images/portfolio/pizza.jpg";
 import zoo from "../assets/images/portfolio/zoo.jpg";
-import pazzleGame from "../assets/images/portfolio/pazzle.jpg";
+import pazzleGame from "../assets/images/portfolio/pazzle.png";
 
 export type technologiesType = String[]
 export type cardProjectType = {

@@ -111,6 +111,7 @@
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     background: linear-gradient(to right bottom, #212428, #16181c);
     img {
+      object-fit: cover;
       padding: 10px 15px;
       border-radius: 20px;
       max-width: 490px;
