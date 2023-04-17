@@ -12,7 +12,6 @@ import js from '../assets/images/skills-logo/js.png'
 import materialUI from '../assets/images/skills-logo/material-ui.svg'
 import sass from '../assets/images/skills-logo/sass.png'
 import storybook from '../assets/images/skills-logo/storybook.svg'
-import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 
 
@@ -48,15 +47,11 @@ const Intro = () => {
                 </div>
 
                 <div className={s.avatar}>
-                    <Fade
-                        direction={'down'}
-                        delay={200}
-                        triggerOnce={true}
-                    >
+
                         <div className={s.avatar__block}>
                             <img src={avatar} alt="avatar"/>
                         </div>
-                    </Fade>
+
                 </div>
 
             </div>
