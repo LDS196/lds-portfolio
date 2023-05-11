@@ -41,11 +41,8 @@ const Intro = () => {
                     <p className={s.about__skill}>best skill on</p>
                     <ul className={s.about__items}>
                         {mySkills.map((el, i) => <li key={i}><img className={s.about__item} src={el} alt=""/></li>)}
-
-
                     </ul>
                 </div>
-
                 <div className={s.avatar}>
 
                         <div className={s.avatar__block}>

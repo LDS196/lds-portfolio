@@ -16,7 +16,7 @@ const PrivateContact = () => {
                 <li className={s.title}>Likhachev Dmitrii</li>
                 <li className={s.subtitle}>Fronted Developer</li>
                 <li className={s.desc}>I am available for remote work. Connect with me via and call in to my account.</li>
-                <li className={s.phone}>Phone: <span className={s.spanHover}>(971) 588 6 9932</span></li>
+                <li className={s.phone}>Phone: <span className={s.spanHover}>+7(982) 737-96-13</span></li>
                 <li className={s.email}>Email: <span className={s.spanHover}>lihachevd87@gmail.com</span></li>
                 <li>FIND WITH ME</li>
                 <ul className={s.social}>
