@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/lds-portfolio/static/css/main.21bd1574.css",
-    "main.js": "/lds-portfolio/static/js/main.128972e3.js",
+    "main.js": "/lds-portfolio/static/js/main.db907507.js",
     "static/js/787.a927ab7b.chunk.js": "/lds-portfolio/static/js/787.a927ab7b.chunk.js",
     "static/media/Design.jpg": "/lds-portfolio/static/media/Design.fcf848fcd1483ac1aa0b.jpg",
     "static/media/Performance1.png": "/lds-portfolio/static/media/Performance1.a0a38d57f73b2c229348.png",
-    "static/media/myCV.pdf": "/lds-portfolio/static/media/myCV.185ca87837d73e5985ed.pdf",
+    "static/media/myCV.pdf": "/lds-portfolio/static/media/myCV.b1d6a3bbeb943a7985df.pdf",
     "static/media/flash-cards.jpg": "/lds-portfolio/static/media/flash-cards.c264e07fab660b03adf0.jpg",
     "static/media/ava4.jpg": "/lds-portfolio/static/media/ava4.644ca290d1314471adb3.jpg",
     "static/media/pazzle.png": "/lds-portfolio/static/media/pazzle.857e13e7e32001ad785c.png",
@@ -30,11 +30,11 @@
     "index.html": "/lds-portfolio/index.html",
     "static/media/material-ui.svg": "/lds-portfolio/static/media/material-ui.60a0ece058ff0f20c1815cf138a56e35.svg",
     "main.21bd1574.css.map": "/lds-portfolio/static/css/main.21bd1574.css.map",
-    "main.128972e3.js.map": "/lds-portfolio/static/js/main.128972e3.js.map",
+    "main.db907507.js.map": "/lds-portfolio/static/js/main.db907507.js.map",
     "787.a927ab7b.chunk.js.map": "/lds-portfolio/static/js/787.a927ab7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21bd1574.css",
-    "static/js/main.128972e3.js"
+    "static/js/main.db907507.js"
   ]
 }
