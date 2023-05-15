@@ -26,7 +26,7 @@ export const MyParticles = () => {
                                value: "",
                            },
                        },
-                       fpsLimit: 300,
+                       fpsLimit: 200,
                        interactivity: {
                            events: {
                                onClick: {

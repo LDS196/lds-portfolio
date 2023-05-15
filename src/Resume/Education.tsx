@@ -39,14 +39,15 @@ const myCourse = [
 const Education = () => {
     return (
         <div className={s.education}>
-            <div className={s.university}>
-                <Subtitle title={'University Degree'} subtitle={''}/>
-                {myEducation.map((el,i)=><EducationExample key={i} education={el}/>)}
-            </div>
             <div className={s.course}>
                 <Subtitle title={'Courses'} subtitle={''} />
                 {myCourse.map((el,i)=><EducationExample key={i} education={el}/>)}
             </div>
+            <div className={s.university}>
+                <Subtitle title={'University Degree'} subtitle={''}/>
+                {myEducation.map((el,i)=><EducationExample key={i} education={el}/>)}
+            </div>
+
         </div>
     );
 };

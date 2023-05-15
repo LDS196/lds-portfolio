@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React from "react";
 import s from "./Experience.module.scss";
 
 export const Experience = () => {
@@ -6,7 +6,25 @@ export const Experience = () => {
         <div className={s.experience}>
             <ul className={s.list}>
                 <li className={s.place}>Frontend Developer</li>
-                <li className={s.year}>Project work (remote work 2022-2023)</li>
+                <li className={s.year}>Project work / May 2022-present day</li>
+                <li className={s.speciality}><span>Cards</span><br/>
+                    • is a memory training app with flashcards that can beused to memorize words, terms etc.
+                    Users can createcards, edit and test them<br/>
+                </li>
+                <li className={s.speciality}><span>Task manager</span><br/>
+                    • is a web application for task management.The app allows users
+                    to create todolist with tasks, set priorities for them, edit
+                    and delete them, mark completed tasks.<br/>
+                </li>
+                <li className={s.speciality}><span>Social network</span><br/>
+                    • this project is a social network.It allows you to create profile, add friends and follow for them, exchange messages and publish posts on your page.<br/>
+                </li>
+                <li className={s.speciality}><span>Stack:</span><br/>
+                    •  React,TypeScript, Redux Toolkit, RestApi, Router-
+                    dom, Axios, Mui,Ant design, React Hook Form,Formik,Storybook,Jest,SASS and other technologies and libraries
+                </li>
+                <li className={s.speciality}><span>Key responsibilities</span><br/>
+                </li>
                 <li className={s.speciality}>• Project architectural solutions (layering UI, BLL,
                     DAL, Server)<br/>
                     • Development and update components with React
