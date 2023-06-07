@@ -12,7 +12,7 @@ const PrivateContact = () => {
 
         <ul className={s.list}>
             <li className={s.listImg}><img src={contactHand} alt="contact"/></li>
-            <div className={s.info}>
+            <ul className={s.info}>
                 <li className={s.title}>Likhachev Dmitrii</li>
                 <li className={s.subtitle}>Fronted Developer</li>
                 <li className={s.desc}>I am available for remote work. Connect with me via and call in to my account.</li>
@@ -41,7 +41,7 @@ const PrivateContact = () => {
                         to={'https://www.instagram.com/lds196/'}>
                         <img title={'Instagram'} src={instagram} alt=""/></Link>
                 </ul>
-            </div>
+            </ul>
 
         </ul>
     );

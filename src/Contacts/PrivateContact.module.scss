@@ -29,7 +29,6 @@
 
 }
 .info{
-
 }
 .listImg {
   margin-bottom: 28px;
@@ -41,6 +40,9 @@
     @media(max-width: 850px){
       border-radius: 10px;
     }
+  }
+  @media(max-width: 450px){
+    display: none;
   }
 }
 
