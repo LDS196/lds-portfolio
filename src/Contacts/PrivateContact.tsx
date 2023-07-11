@@ -28,7 +28,7 @@ const PrivateContact = () => {
                     <Link
                         target={'_blank'}
                         className={s.social__item}
-                        to={'https://github.com/LDS196?tab=repositories'}>
+                        to={'https://github.com/LDS196'}>
                         <img title={'Github'} src={git} alt=""/></Link>
                     <Link
                         target={'_blank'}
@@ -38,7 +38,7 @@ const PrivateContact = () => {
                     <Link
                         target={'_blank'}
                         className={s.social__item}
-                        to={'https://www.instagram.com/lds196/'}>
+                        to={'https://www.instagram.com'}>
                         <img title={'Instagram'} src={instagram} alt=""/></Link>
                 </ul>
             </ul>
