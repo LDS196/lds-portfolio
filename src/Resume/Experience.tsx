@@ -6,7 +6,24 @@ export const Experience = () => {
         <div className={s.experience}>
             <ul className={s.list}>
                 <li className={s.place}>Frontend Developer</li>
-                <li className={s.year}>Project work / May 2022-present day</li>
+                <li className={s.year}>April 2023 - present day </li>
+                <li className={s.speciality}><span>Inctagram - Startup project </span><br/>
+                    •  Разработка, поддержка и обновление функционала
+                    вэб-приложения социальной сети в команде из 4
+                    человек. Реализованные задачи:<br/>
+                    • Принимал участие в разработке архитектуры проекта<br/>
+                    • Разработал переиспользуемые React-компоненты<br/>
+                    • Занимался организацией Redux-хранилища<br/>
+                    • Тестировал React-компоненты с помощью Jest<br/>
+                    • Разработал дизайн и выполнил всю верстку с
+                    использованием HTML5, CSS3<br/>
+                    • Занимался созданием модальных окон, авторизацией
+                    пользователей<br/>
+                </li>
+                <li className={s.speciality}><span>Stack:</span><br/>
+                    •  NextJS, TypeScript, RTK Query, HTML/CSS и etc.
+                </li>
+                <li className={s.year}>Project work / February 2022-April 2023</li>
                 <li className={s.speciality}><span>Cards</span><br/>
                     • is a memory training app with flashcards that can beused to memorize words, terms etc.
                     Users can createcards, edit and test them<br/>
