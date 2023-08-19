@@ -6,8 +6,26 @@ import zoo from "../assets/images/portfolio/zoo.jpg";
 import pazzleGame from "../assets/images/portfolio/pazzle.png";
 import {cardProjectType} from "./Portfolio";
 import flashCardsImg from '../assets/images/portfolio/flash-cards.jpg'
+import  asteroid from '../assets/images/portfolio/asteroid.jpg'
+import  history from '../assets/images/portfolio/history.jpg'
 
 export const projects: Array<cardProjectType> = [
+    {
+        kind: 'app',
+        title: 'Historical events',
+        technologies: ['React','TypeScript', "Swiper"],
+        id: '9',
+        urlImg: history,
+        link:'https://test-slider-eosin.vercel.app/'
+    },
+    {
+        kind: 'app',
+        title: 'Asteroids',
+        technologies: ['NextJS','TypeScript', "RestApi"],
+        id: '8',
+        urlImg: asteroid,
+        link:'https://asteroids-app-eta.vercel.app/'
+    },
     {
         kind: 'app',
         title: 'flash cards',

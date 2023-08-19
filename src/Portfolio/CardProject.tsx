@@ -13,7 +13,7 @@ const CardProject = (props:PropsType) => {
     return (
         <div className={s.item}>
             <li>
-                <Link target={"_blank"} to={link}><img style={{maxHeight:'230px'}} src={urlImg} alt="todo"/></Link>
+                <Link target={"_blank"} to={link}><img style={{maxHeight:'230px',}} src={urlImg} alt="todo"/></Link>
                 <div className={s.kind}>
                     <p>{kind}</p>
                         <Like id={id}/>
