@@ -31,13 +31,8 @@ const Intro = () => {
                                            eraseDelay={3000}
                         />
                     </h1>
-                    <p className={s.about__desc}>Hi! I'm Front-end Developer with experience about 2 years in creating
-                        SPA using React, Redux, TypeScript and other technologies and libraries, with knowledge
-                        in user-interface,testing, and debugging processes.
-                        I know how to work in a team and achieve the best results. I improving my skills
-                        in this direction and plan to expand them with new technologies, such as Next JS.
-                        I usually spend my free time reading IT literature, doing sports and improving
-                        my English. Open to your suggestions.</p>
+                    <p className={s.about__desc}>Frontend developer with two years of development experience. I write in Javascript/TypeScript using React, Next.js, Vue. I love developing SPA/SSR web applications with user-friendly UI and beautiful design.<br/>I am passionate about information technology and how it is transforming business.
+                        <br/>I will be glad to work in a group with current technology stacks and high-level expertise.</p>
                     <p className={s.about__skill}>best skill on</p>
                     <ul className={s.about__items}>
                         {mySkills.map((el, i) => <li key={i}><img className={s.about__item} src={el} alt=""/></li>)}

@@ -7,55 +7,29 @@ export const Experience = () => {
             <ul className={s.list}>
                 <li className={s.place}>Frontend Developer</li>
                 <li className={s.year}>April 2023 - present day </li>
-                <li className={s.speciality}><span>Inctagram - Startup project </span><br/>
-                    •  Разработка, поддержка и обновление функционала
-                    вэб-приложения социальной сети в команде из 4
-                    человек. Реализованные задачи:<br/>
-                    • Принимал участие в разработке архитектуры проекта<br/>
-                    • Разработал переиспользуемые React-компоненты<br/>
-                    • Занимался организацией Redux-хранилища<br/>
-                    • Тестировал React-компоненты с помощью Jest<br/>
-                    • Разработал дизайн и выполнил всю верстку с
-                    использованием HTML5, CSS3<br/>
-                    • Занимался созданием модальных окон, авторизацией
-                    пользователей<br/>
+                <li className={s.speciality}><span>Panels</span><br/>
+                      Project: development of an administrative panel to optimize the provision of SMM services in a team of 10 people.<br/>
+                    Completed tasks:<br/>
+                    • developed the project architecture<br/>
+                    • created adaptive components<br/>
+                    • configured Eslint and Prettier<br/>
+                    • configured VueRouter and Vuex<br/>
+                     Core stack: Vue.js, Vuex, TypeScript<br/>
+                     Link: panel.makeyourpanel.com/admin<br/>
                 </li>
-                <li className={s.speciality}><span>Stack:</span><br/>
-                    •  NextJS, TypeScript, RTK Query, HTML/CSS и etc.
-                </li>
-                <li className={s.year}>Project work / February 2022-April 2023</li>
-                <li className={s.speciality}><span>Cards</span><br/>
-                    • is a memory training app with flashcards that can beused to memorize words, terms etc.
-                    Users can createcards, edit and test them<br/>
-                </li>
-                <li className={s.speciality}><span>Task manager</span><br/>
-                    • is a web application for task management.The app allows users
-                    to create todolist with tasks, set priorities for them, edit
-                    and delete them, mark completed tasks.<br/>
-                </li>
-                <li className={s.speciality}><span>Social network</span><br/>
-                    • this project is a social network.It allows you to create profile, add friends and follow for them, exchange messages and publish posts on your page.<br/>
-                </li>
-                <li className={s.speciality}><span>Stack:</span><br/>
-                    •  React,TypeScript, Redux Toolkit, RestApi, Router-
-                    dom, Axios, Mui,Ant design, React Hook Form,Formik,Storybook,Jest,SASS and other technologies and libraries
-                </li>
-                <li className={s.speciality}><span>Key responsibilities</span><br/>
-                </li>
-                <li className={s.speciality}>• Project architectural solutions (layering UI, BLL,
-                    DAL, Server)<br/>
-                    • Development and update components with React
-                    RESTful (Registration/loginization/pagination etc)<br/>
-                    • Proper BLL state management with Redux, Thunk
-                    Toolkit etc<br/>
-                    • Working with the server using ajax (CRUD
-                    determination and data processing)<br/>
-                    • Performance enhancement (memo, useCallback,
-                    lazy, etc.)<br/>
-                    • Covering applications with tests<br/>
-                    • Team developement<br/>
-                    • Bug fixing, deploying<br/>
-                </li>
+              <li className={s.speciality}><span></span><br/>
+                Project: development, support and updating of the functionality of a web application for a corporate social network in a team of 5 people.<br/>
+                Completed tasks:<br/>
+                • took part in the development of the project structure<br/>
+                • developed reusable adaptive React components<br/>
+                • organized Redux storage<br/>
+                • interacted with the server and processed errors<br/>
+                • tested React components using Jest<br/>
+                • was involved in the creation of modal windows and user authorization<br/>
+                Core stack: NextJS, TypeScript, RTK Query.<br/>
+
+              </li>
+
 
             </ul>
             <ul className={s.list}>
