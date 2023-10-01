@@ -6,9 +6,6 @@ import Particles from "react-tsparticles";
 export const MyParticles = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
 
-        // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(engine);
     }, []);
 
@@ -70,7 +67,7 @@ export const MyParticles = () => {
                                    default: "bounce",
                                },
                                random: false,
-                               speed: 4,
+                               speed: 1.2,
                                straight: false,
                            },
                            number: {
