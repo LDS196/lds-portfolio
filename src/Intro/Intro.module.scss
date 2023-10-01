@@ -2,6 +2,12 @@
   width: 30px;
   height: 30px;
 }
+.typing{
+white-space: nowrap;
+  span{
+    color: red;
+  }
+}
 .intro {
   @media(max-width: 935px){
    padding: 0 10px;

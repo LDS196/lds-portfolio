@@ -22,14 +22,18 @@ const Intro = () => {
             <div className={s.intro__block}>
                 <div className={s.about}>
                     <p className={s.about__subtitle}>welcome to my world</p>
-                    <h1 className={s.about__title}>Hi, I'm <span className={s.about__name}>Dmitrii</span>
+                    <h1 className={s.about__title}>Hi, I'm <span className={s.about__name}>Dmitrii </span>
                         <br/>
-                        <ReactTypingEffect text={'a Frontend Developer'}
-                                           speed={150}
-                                           typingDelay={500}
-                                           eraseSpeed={45}
-                                           eraseDelay={3000}
-                        />
+                      a Frontend Developer
+                        {/*<ReactTypingEffect*/}
+                        {/*  className={s.typing}*/}
+                        {/*  text={'a Frontend Developer'}*/}
+
+                        {/*                   speed={150}*/}
+                        {/*                   typingDelay={500}*/}
+                        {/*                   eraseSpeed={45}*/}
+                        {/*                   eraseDelay={3000}*/}
+                        {/*/>*/}
                     </h1>
                     <p className={s.about__desc}>Frontend developer with two years of development experience. I write in Javascript/TypeScript using React, Next.js, Vue. I love developing SPA/SSR web applications with user-friendly UI and beautiful design.<br/>I am passionate about information technology and how it is transforming business.
                         <br/>I will be glad to work in a group with current technology stacks and high-level expertise.</p>
