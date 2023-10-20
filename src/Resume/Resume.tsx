@@ -58,7 +58,7 @@ const Resume = () => {
                     <Title title={'My Resume'} subtitle={'10+ years experience'}/>
                 </div>
                 <div style={{textAlign: "right"}}>
-                    <button className={s.btnDownload} onClick={onButtonClick}>Download CV</button>
+                    <button disabled={true} className={s.btnDownload} onClick={onButtonClick}>Download CV</button>
                 </div>
                 <NavResume onClick={onClick}/>
                 {value === 0 ? <Skills/> : ''}
