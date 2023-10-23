@@ -5,7 +5,7 @@ import birds from "../assets/images/portfolio/birds.png";
 import zoo from "../assets/images/portfolio/zoo.jpg";
 import pazzleGame from "../assets/images/portfolio/pazzle.png";
 import {cardProjectType} from "./Portfolio";
-import flashCardsImg from '../assets/images/portfolio/flash-cards.jpg'
+import flashCardsImg from '../assets/images/portfolio/flash-cards.png'
 import  asteroid from '../assets/images/portfolio/asteroid.jpg'
 import  history from '../assets/images/portfolio/history.jpg'
 
