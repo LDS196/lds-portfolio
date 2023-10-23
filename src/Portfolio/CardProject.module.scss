@@ -10,6 +10,7 @@
 
   li {
     display: flex;
+    height: 100%;
     gap: 20px 0;
     flex-direction: column;
     @media (max-width: 850px) {
@@ -17,6 +18,7 @@
     }
 
     img {
+      max-height: 230px;
       border-radius: 15px;
       width: 100%;
       transition: 0.5s;
@@ -56,11 +58,13 @@
     }
 
     .technologies {
+      flex: 1 0 auto;
       text-transform: uppercase;
       font-size: 14px;
       line-height: 28px;
       display: flex;
       flex-wrap: wrap;
+
       @media (max-width: 850px) {
         font-size: 12px;
         line-height: 20px;
@@ -76,6 +80,7 @@
 }
 
 .link {
+  flex: 0 0 auto;
   text-transform: uppercase;
   font-size: 14px;
   color: #c4cfde;
