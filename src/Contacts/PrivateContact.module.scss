@@ -8,27 +8,27 @@
   justify-content: start;
   gap: 10px 0;
   color: #abb8c3;
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-  @media(max-width: 850px){
+  box-shadow:
+    10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+  @media (max-width: 850px) {
     flex-direction: row;
     gap: 0 30px;
     padding: 16px;
   }
 
   li {
-
     span {
       cursor: pointer;
-      color: #E4E6EA;
+      color: #e4e6ea;
 
       &:hover {
         color: #f9004d;
       }
     }
   }
-
 }
-.info{
+.info {
 }
 .listImg {
   margin-bottom: 28px;
@@ -37,11 +37,11 @@
 
   img {
     width: 100%;
-    @media(max-width: 850px){
+    @media (max-width: 850px) {
       border-radius: 10px;
     }
   }
-  @media(max-width: 450px){
+  @media (max-width: 450px) {
     display: none;
   }
 }
@@ -49,10 +49,10 @@
 .title {
   font-size: 29px;
   line-height: 44px;
-  color: #E4E6EA;
+  color: #e4e6ea;
   margin-bottom: 9px;
   font-weight: 600;
-  @media(max-width: 600px){
+  @media (max-width: 600px) {
     font-size: 18px;
     line-height: 20px;
   }
@@ -62,7 +62,7 @@
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
-  @media(max-width: 600px){
+  @media (max-width: 600px) {
     font-size: 16px;
     line-height: 20px;
   }
@@ -77,7 +77,7 @@
   display: flex;
   gap: 0 20px;
   margin-top: 20px;
-  @media(max-width: 500px){
+  @media (max-width: 500px) {
     gap: 0 10px;
   }
   &__item {
@@ -85,13 +85,15 @@
     display: block;
     border-radius: 5px;
     padding: 7px;
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    box-shadow:
+      10px 10px 19px #1c1e22,
+      -10px -10px 19px #262a2e;
 
     img {
       width: 35px;
       height: 35px;
       transition: 0.2s;
-      @media(max-width: 600px){
+      @media (max-width: 600px) {
         width: 25px;
         height: 25px;
       }
@@ -101,5 +103,4 @@
       }
     }
   }
-
 }

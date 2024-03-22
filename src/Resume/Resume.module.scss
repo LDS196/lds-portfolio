@@ -3,7 +3,6 @@
   @media (max-width: 500px) {
     padding-top: 35px;
   }
-
 }
 
 .title {
@@ -23,15 +22,14 @@
 }
 
 .resumeDev {
-  flex: 1 1 50%
+  flex: 1 1 50%;
 }
 
 .resumeDesign {
-  flex: 1 1 50%
+  flex: 1 1 50%;
 }
 
 .skillsContainer {
-
 }
 
 .btnDownload {
@@ -43,14 +41,15 @@
   font-size: 18px;
   border-radius: 6px;
   background: linear-gradient(145deg, #1e2024, #23272b);
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow:
+    10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
   @media (max-width: 850px) {
     padding: 3px 6px;
     font-size: 12px;
   }
-  &:hover{
+  &:hover {
     background: #191b1e;
     color: #f9004d;
   }
-
 }

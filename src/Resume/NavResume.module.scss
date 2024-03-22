@@ -1,11 +1,11 @@
-.items{
-display: flex;
+.items {
+  display: flex;
 
   @media (max-width: 360px) {
     gap: 0 6px;
   }
 }
-.item{
+.item {
   color: white;
   cursor: pointer;
   padding: 30px 10px;
@@ -33,12 +33,15 @@ display: flex;
     font-size: 9px;
   }
 }
-.item:hover{
+.item:hover {
   color: #ff014f;
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow:
+    10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
 }
-.active{
+.active {
   color: #ff014f;
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-
+  box-shadow:
+    10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
 }

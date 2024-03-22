@@ -1,27 +1,21 @@
 .portfolio {
-
   padding-top: 70px;
-  @media (max-width: 500px){
+  @media (max-width: 500px) {
     padding-top: 35px;
   }
-&__title{
-  text-align: center;
-}
+  &__title {
+    text-align: center;
+  }
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px 30px;
-    @media (max-width: 750px){
+    @media (max-width: 750px) {
       grid-template-columns: repeat(2, 1fr);
-
     }
-    @media (max-width: 500px){
+    @media (max-width: 500px) {
       grid-template-columns: repeat(1, 1fr);
       gap: 10px 0;
     }
-
   }
-
 }
-
-

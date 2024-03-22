@@ -1,12 +1,8 @@
-import React from 'react';
+import React from 'react'
 import s from './Line.module.scss'
 
 const Line = () => {
-    return (
-        <div className={s.line}>
+  return <div className={s.line}></div>
+}
 
-        </div>
-    );
-};
-
-export default Line;
+export default Line

@@ -4,10 +4,10 @@
   line-height: 14px;
   text-transform: uppercase;
   font-size: 16px;
-  @media(max-width: 850px){
+  @media (max-width: 850px) {
     font-size: 14px;
   }
-  @media(max-width: 550px){
+  @media (max-width: 550px) {
     font-size: 10px;
   }
 }
@@ -19,24 +19,23 @@
   color: #c4cfde;
   margin-top: 20px;
   margin-bottom: 40px;
-  @media(max-width: 850px){
+  @media (max-width: 850px) {
     font-size: 28px;
     margin-bottom: 24px;
     margin-top: 10px;
   }
-  @media(max-width: 550px){
+  @media (max-width: 550px) {
     font-size: 22px;
     margin-bottom: 16px;
     margin-top: 8px;
   }
 }
-.subtitleSubtitle{
+.subtitleSubtitle {
   font-size: 10px;
   color: #f9004d;
   letter-spacing: 1px;
   line-height: 14px;
   text-transform: uppercase;
-
 }
 
 .titleSubtitle {
@@ -46,13 +45,13 @@
   color: #c4cfde;
   margin-top: 20px;
   margin-bottom: 40px;
-  @media(max-width: 850px){
+  @media (max-width: 850px) {
     font-size: 24px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  @media(max-width: 550px){
-    font-size:16px;
+  @media (max-width: 550px) {
+    font-size: 16px;
     margin-top: 7px;
     margin-bottom: 14px;
   }

@@ -1,6 +1,8 @@
 .item {
   height: 100%;
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow:
+    10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
   padding: 25px 45px 25px 45px;
   border-radius: 25px;
   background: linear-gradient(to right bottom, #212428, #16181c);
@@ -32,15 +34,12 @@
       display: flex;
       justify-content: space-between;
 
-
       p {
         color: #f9004d;
         text-transform: uppercase;
         font-size: 14px;
         line-height: 28px;
       }
-
-
     }
 
     h4 {
@@ -48,10 +47,10 @@
       font-size: 26px;
       line-height: 32px;
       cursor: pointer;
-    @media (max-width: 850px) {
-      font-size: 18px;
-      line-height: 24px;
-    }
+      @media (max-width: 850px) {
+        font-size: 18px;
+        line-height: 24px;
+      }
       :hover {
         font-size: 50px;
       }
@@ -73,7 +72,6 @@
       .slash {
         color: #f9004d;
         padding: 0 4px;
-
       }
     }
   }
@@ -90,4 +88,3 @@
     color: #f9004d;
   }
 }
-

@@ -12,7 +12,7 @@
 }
 
 .intro {
-  @media(max-width: 935px) {
+  @media (max-width: 935px) {
     padding: 0 10px;
   }
 
@@ -20,14 +20,11 @@
     display: flex;
     justify-content: space-around;
     gap: 0 30px;
-    @media(max-width: 685px) {
+    @media (max-width: 685px) {
       flex-direction: column-reverse;
       justify-content: start;
-
     }
-
   }
-
 }
 
 .about {
@@ -35,14 +32,12 @@
   flex-direction: column;
   flex: 1 1 55%;
 
-
   &__subtitle {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 500;
     display: block;
     margin-bottom: 20px;
-
   }
 
   &__title {
@@ -51,16 +46,14 @@
     font-size: 60px;
     line-height: 82px;
     margin-bottom: 22px;
-    @media(max-width: 935px) {
+    @media (max-width: 935px) {
       font-size: 40px;
       line-height: 52px;
     }
-    @media(max-width: 420px) {
+    @media (max-width: 420px) {
       font-size: 28px;
       line-height: 42px;
-
     }
-
   }
 
   &__name {
@@ -80,7 +73,7 @@
     font-weight: 500;
     display: block;
     font-size: 14px;
-    @media(max-width: 935px) {
+    @media (max-width: 935px) {
       padding-top: 30px;
     }
   }
@@ -92,31 +85,26 @@
     flex-wrap: wrap;
     margin-top: 20px;
 
-
     li {
       width: 40px;
       height: 40px;
     }
-
   }
 
   &__item {
     width: 100%;
     height: auto;
   }
-
 }
 
 .avatar {
   flex: 1 1 50%;
   display: flex;
   justify-content: end;
-  @media(max-width: 685px) {
+  @media (max-width: 685px) {
     justify-content: center;
     margin-bottom: 20px;
-
   }
-
 
   &__block {
     z-index: 1;
@@ -125,7 +113,9 @@
     max-height: 560px;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    box-shadow:
+      10px 10px 19px #1c1e22,
+      -10px -10px 19px #262a2e;
     background: linear-gradient(to right bottom, #212428, #16181c);
 
     img {
@@ -138,6 +128,4 @@
       height: 100%;
     }
   }
-
-
 }
