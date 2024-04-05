@@ -16,12 +16,12 @@ const myDevSkills: SkillsType = [
   { title: 'css', progress: 70 },
 ]
 const myDesignSkills: SkillsType = [
-  { title: 'figma', progress: 60 },
-  { title: 'mui', progress: 60 },
+  { title: 'figma', progress: 65 },
+  { title: 'mui', progress: 75 },
   { title: 'ant design', progress: 60 },
   { title: 'framer motion', progress: 60 },
   { title: 'adobe Photoshop', progress: 50 },
-  { title: 'design', progress: 40 },
+  { title: 'design', progress: 50 },
 ]
 
 export type SkillsType = Array<{ title: string; progress: number }>
