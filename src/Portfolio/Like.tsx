@@ -29,7 +29,7 @@ const Like: FC<LikeType> = ({ id }) => {
       setCount(newCount)
       setLike(newIsLike)
     }
-  }, [])
+  }, [id])
 
   const onClickHandler = () => {
     if (!isLike) {
