@@ -1,4 +1,4 @@
-import React, { FormEventHandler } from 'react'
+import React from 'react'
 import s from './Form.module.scss'
 import emailjs from 'emailjs-com'
 

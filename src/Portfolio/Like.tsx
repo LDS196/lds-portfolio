@@ -18,7 +18,7 @@ const Like: FC<LikeType> = ({ id }) => {
       localStorage.setItem(`like-${id}`, JSON.stringify(isLike))
     }
     setFirstRendering(false)
-  }, [count, isLike])
+  }, [count, isLike,firstRendering,id])
 
   useEffect(() => {
     const count = localStorage.getItem(`count-${id}`)

@@ -11,7 +11,6 @@ const NavResume: FC<NavResumeType> = ({ onClick }) => {
     onClick(i)
     setValue(i)
   }
-  const a =23
 
   return (
     <div className={s.items}>

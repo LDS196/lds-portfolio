@@ -14,35 +14,9 @@ const myEducation = [
     speciality: 'Speciality – Commerce specialist',
   },
 ]
-const myCourse = [
-  {
-    place: 'IT-Incubator',
-    year: '2022',
-    speciality: 'Frontend Developer/React',
-  },
-  {
-    place: 'RS School',
-    year: '2022',
-    speciality: '«JavaScript/Front-end.Stage 1»',
-  },
-  {
-    place: 'RS School',
-    year: '2022',
-    speciality: '«JavaScript/Front-end.Stage 0»',
-  },
-  {
-    place: 'FreeCodeCamp',
-    year: '2022',
-    speciality: 'HTML / CSS / JS',
-  },
-]
 const Education = () => {
   return (
     <div className={s.education}>
-      {/*<div className={s.course}>*/}
-      {/*    <Subtitle title={'Courses'} subtitle={''} />*/}
-      {/*    {myCourse.map((el,i)=><EducationExample key={i} education={el}/>)}*/}
-      {/*</div>*/}
       <div className={s.university}>
         <Subtitle title={'University Degree'} subtitle={''} />
         {myEducation.map((el, i) => (
