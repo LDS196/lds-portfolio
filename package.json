@@ -37,7 +37,8 @@
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "fix:prettier": "prettier --write \"**/*.*\""
+    "fix:prettier": "prettier --write \"**/*.*\"",
+    "test:e2e": "node ./scripts/e2e.test.js"
   },
   "eslintConfig": {
     "extends": [
