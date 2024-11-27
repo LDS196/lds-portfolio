@@ -57,7 +57,7 @@ const Intro = () => {
           </h1>
 
           <p className={s.about__desc}>
-            Frontend developer with two years of development experience. I write in
+            Frontend developer with three years of development experience. I write in
             Javascript/TypeScript using React, Next.js, Vue. I love developing SPA/SSR web
             applications with user-friendly UI and beautiful design.
             <br />I am passionate about information technology and how it is transforming business.
