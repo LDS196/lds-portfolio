@@ -22,6 +22,7 @@ const Intro = () => {
   return (
     <section className={s.intro} id={'intro'}>
       <div className={s.intro__block}>
+        
         <div className={s.about}>
           <p className={s.about__subtitle}>welcome to my world</p>
 
