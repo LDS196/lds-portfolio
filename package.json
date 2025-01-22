@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "cross-env CI=false react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "fix:prettier": "prettier --write \"**/*.*\"",
@@ -60,6 +60,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cross-env": "^7.0.3",
     "prettier": "3.2.5"
   }
 }
